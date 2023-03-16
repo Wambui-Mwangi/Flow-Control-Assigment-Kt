@@ -42,16 +42,16 @@ fun guestsAge(age:Int){
 fun prints(){
     val nums = 1..100
    for (n in nums){
-       val check3 = n%3
-       val check5 = n%5
+       val divisible3 = n%3
+       val divisible5 = n%5
 
-        if (check3==0 && check5==0) {
+        if (divisible3==0 && divisible5==0) {
             println("FizzBuzz")
         }
-       else if (check3 == 0){
+       else if (divisible3 == 0){
            println("Fizz")
        }
-       else if (check5 == 0){
+       else if (divisible5 == 0){
            println("Buzz")
        }
        else{
